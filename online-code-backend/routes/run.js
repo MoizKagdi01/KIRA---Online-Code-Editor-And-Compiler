@@ -63,7 +63,7 @@ router.post('/run', async (req, res) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-rapidapi-key': 'dc7e0166dcmsh67e52a1629c71e9p110fbajsn0e3cfacc6796',
+                'x-rapidapi-key': JudgeAPIKey,
                 'x-rapidapi-host': 'judge0-ce.p.rapidapi.com'
             },
             body: JSON.stringify({
