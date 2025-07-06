@@ -1,0 +1,93 @@
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.main-outer-container {
+  border: 1px solid rgb(245, 20, 20);
+  height: 90.2vh;
+  display: flex;
+}
+.main-inner-container {
+  border: 1px solid rgb(245, 20, 20);
+  height: 100%;
+}
+.flex-grow-tool {
+  width: 20%;
+}
+.flex-grow-code {
+  width: 40%;
+  /* padding: 5px; */
+}
+.flex-grow-output {
+  width: 40%;
+}
+.flex-grow-code:focus {
+  border: 1px solid red;
+}
+.output-text {
+  height: 5vh;
+  text-align: center;
+}
+.main-toolbox {
+  padding: 4vw;
+}
+ul {
+  padding-left: 10px;
+}
+.run-menu {
+  width: 100%;
+  display: flex;
+  height: 5vh;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+}
+.run-button {
+  display: block;
+  align-self: center;
+  justify-self: center;
+  margin: 5px;
+}
+.typing-area {
+  display: block;
+  min-height: 84.7vh;
+  max-height: 84.7vh;
+  overflow: scroll;
+}
+.run-button {
+  display: inline-block;
+}
+
+.card-container:hover .cards {
+  opacity: 0.6;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.cards:hover {
+  opacity: 100% !important;
+  transform: scale(1.05);
+  transition: all;
+  transition-duration: 500ms;
+}
+.langlogo {
+  width: 2vw;
+  display: inline;
+}
+#editor {
+  word-wrap: normal;
+}
+#bg {
+  background-image: url("./ImageUtilities/background.jpg");
+  background-size: cover;
+  opacity: 50%;  
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+body {
+  background-color: #aaa;
+}

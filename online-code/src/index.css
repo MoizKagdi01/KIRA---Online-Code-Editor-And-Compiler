@@ -1,0 +1,25 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-logo {
+    filter: contrast(10) ;
+    filter: brightness(2);
+    height: 5vh;
+    min-height:50px;
+    min-width: 100px;
+    /* display: flex; */
+    
+}
+.logo-text{
+    margin-top: 1.5vh;
+    margin-right: 1.5vh;
+}
+.zoom:hover {
+    scale: 1.5;
+}
+.aboutlogo {
+    filter: brightness(1);
+    /* filter: saturate(100000000); */
+}

@@ -1,0 +1,58 @@
+.about-us-main {
+  background-image: url("./components/logo0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1f202950;
+  color: #000000;
+}
+#java {
+  background-image: url("./components/java.jpeg");
+  background-repeat: no-repeat;
+  width: 25vw;
+  background-size: cover;
+  border-radius: 2vh;
+}
+#python {
+  background-image: url("./components/python.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vw;
+  border-radius: 2vh;
+}
+#c {
+  background-image: url("./components/cpp.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25vw;
+  border-radius: 2vh;
+}
+#cpp {
+  border-radius: 2vh;
+  background-image: url("./components/cpp.jpeg");
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2vh;
+}
+#html {
+  border-radius: 2vh;
+  width: 25vw;
+  background-image: url("./components/html.webp");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#c {
+  width: 25vw;
+  border-radius: 2vh;
+  background-image: url("./components/clogo.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.prcontent {
+  color: rgb(1, 102, 55) ;
+  text-shadow: 0 0 20px whitesmoke;
+  background-color: rgba(245, 245, 245, 0.185);
+}
